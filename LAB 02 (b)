@@ -1,0 +1,17 @@
+public class LAB_04 {
+    static void method1()
+    {
+        System.out.println("Static Method");
+    }
+    void  method2()
+    {
+        System.out.println("Non Static Method");
+    }
+    public static void main(String[] argd)
+    {
+        method1();
+        LAB_04 obj = new LAB_04();
+        obj.method2();
+
+    }
+}
