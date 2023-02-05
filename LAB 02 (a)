@@ -1,0 +1,21 @@
+public class LAB_04 {
+    static int method1(int a)
+    {
+        System.out.println("Static Method");
+        return a;
+    }
+    int  method2(int b)
+    {
+        System.out.println("Non Static Method");
+        return b;
+    }
+    public static void main(String[] args)
+    {
+        //method1(5);
+        System.out.println(method1(50));
+        LAB_04 obj = new LAB_04();
+        //obj.method2();
+        System.out.println(obj.method2(60));
+
+    }
+}
