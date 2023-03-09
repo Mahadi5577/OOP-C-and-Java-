@@ -1,7 +1,13 @@
 public class Car {
-    public int speed;
-    public void run()
+    String model;
+    String company;
+    public void drive()
     {
-        System.out.println("The speed of the car is " +this.speed + " KMPH");
+        System.out.println("Drive");
     }
+    public void stop()
+    {
+        System.out.println("Stop");
+    }
+
 }
